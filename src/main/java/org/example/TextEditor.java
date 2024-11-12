@@ -54,13 +54,13 @@ public class TextEditor {
                 guardarArchivo();
             }
         });
-
+       /*
         salir.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 salirAplicacion(ventana);
             }
-        });
+        }); */
 
         // Agregar los elementos al menú
         menuArchivo.add(abrir);
@@ -71,7 +71,7 @@ public class TextEditor {
 
         ventana.setJMenuBar(menuBar);
         ventana.setVisible(true);
-
+        /*
         // Atajos de teclado
         abrir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
         guardar.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, ActionEvent.CTRL_MASK));
@@ -95,7 +95,7 @@ public class TextEditor {
             public void windowClosing(WindowEvent e) {
                 salirAplicacion(ventana);
             }
-        });
+        });*/
     }
 
     // Método para abrir archivo
@@ -133,7 +133,7 @@ public class TextEditor {
             }
         }
     }
-
+    /*
     // Método para salir de la aplicación
     private void salirAplicacion(JFrame vent) {
         if (modificado) {
@@ -143,7 +143,7 @@ public class TextEditor {
             }
         }
         vent.dispose();
-    }
+    }*/
 
 
     public static void main(String[] args) {
